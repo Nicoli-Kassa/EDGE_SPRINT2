@@ -48,5 +48,5 @@ Pedro Almeida Camacho | RM 556831
 
 #### [Vídeo explicativo do projeto]()
 
-#### [Código Fonte em C++]()
+#### [Código Fonte em C++](https://github.com/Nicoli-Kassa/EDGE_SPRINT2/blob/main/codigo.c%2B%2B)
 
