@@ -19,7 +19,7 @@ Pedro Almeida Camacho | RM 556831
 * Resistor;
 
 ### Montagem do Hardware
-![Esquema do projeto](EsquemaArduino.png)
+![Esquema do projeto](./imagens/EsquemaArduino.png)
 
 ## Resultados
 > Após o sistema ser implementado. Deve ser apresentado as seguintes informações:
@@ -30,11 +30,11 @@ Pedro Almeida Camacho | RM 556831
 * Temperatura;
 
 ### Monitor serial: 
-![alt Dados Apresentados](dados.png)
+![alt Dados Apresentados](./imagens/dados.png)
 
 ### Display OLED:
-![alt Dados Apresentados](dadosOLED.png)
-![alt Dados Apresentados](desidratacaoOLED.png)
+![alt Dados Apresentados](./imagens/dadosOLED.png)
+![alt Dados Apresentados](./imagens/desidratacaoOLED.png)
 
 
 # Observações
