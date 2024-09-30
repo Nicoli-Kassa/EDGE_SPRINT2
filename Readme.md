@@ -36,6 +36,9 @@ Pedro Almeida Camacho | RM 556831
 ![alt Dados Apresentados](./imagens/dadosOLED.png)
 ![alt Dados Apresentados](./imagens/desidratacaoOLED.png)
 
+# Servidor IoT MQTT
+Neste projeto tambem integramos nosso esp32 a um servidor na nuvem utilizando a azure com um Virtual machine rodando o ubuntu server, nele iniciamos o monitoramento do nosso device e enviamos os dados para o servidor
+
 
 # Observações
 >Essa é apenas uma simulação. O projeto principal utilizaria um sensor de batimentos cardíacos, como o sensor MAX30100, porém como não há esse componente na biblioteca do simulador, utilizamos uma variável que gera números aleatórios entre 60 e 100. Além disso, o projeto inicial contava com a aplicação do sensor de condutividade elétrica para identificar sinais de desidratação, porém na simulação utilizamos a própria medição de umidade do DHT22. E para possíveis melhorias, poderia ser incrementado um acelerômetro e giroscópio, como o MPU6050, para monitorar os movimentos do capacete e detectar possíveis impactos ou quedas.
