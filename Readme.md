@@ -9,7 +9,7 @@ Nicoli Amy Kassa | RM 559104
 Pedro Almeida Camacho | RM 556831
 
 ### Descrição do Projeto
-> Esse projeto utiliza o ESP32 e outros componentes para monitorar as condições do piloto. O sistema é capaz de medir a temperatura e umidade interna do capacete, além dos batimentos cardíacos e sinais de desidratação. Com esse projeto é possível garantir a segurança e o bem-estar dos pilotos. 
+Esse projeto utiliza o ESP32 e outros componentes para monitorar as condições do piloto. O sistema é capaz de medir a temperatura e umidade interna do capacete, além dos batimentos cardíacos e sinais de desidratação. Com esse projeto é possível garantir a segurança e o bem-estar dos pilotos. 
 
 ### Equipamentos utilizados
 * ESP32;
@@ -22,7 +22,7 @@ Pedro Almeida Camacho | RM 556831
 ![Esquema do projeto](./imagens/EsquemaArduino.png)
 
 ## Resultados
-> Após o sistema ser implementado. Deve ser apresentado as seguintes informações:
+Após o sistema ser implementado. Deve ser apresentado as seguintes informações:
 
 * BPM (Batimento Por Minuto);
 * Umidade;
@@ -39,9 +39,12 @@ Pedro Almeida Camacho | RM 556831
 # Servidor IoT MQTT
 
 Neste projeto utilizando a rede Cloud da Azure para conectar nosso esp32 a servidores na nuvem, criamos uma maquina virtual linux.
+
 ![alt Virtual machine](./imagens/vm-azure.png)
+
 Alem disso o servidor foi feito utilizando docker e fiware do repositorio fiware descomplicado assim conseguimos rodar e processar as informações e dados gerador pelo esp no servido dedicado a isso,
 na imagem vemos o nosso device200 utilizado na simulação conectado ao servidor.
+
 ![alt Device](./imagens/devices.png)
 
 # Observações
@@ -51,9 +54,10 @@ na imagem vemos o nosso device200 utilizado na simulação conectado ao servidor
 >O capacete inteligente tem como objetivo principal aumentar a segurança, conforto e eficiência durante as corridas, monitorando sinais vitais como frequência cardíaca e temperatura corporal para detectar condições críticas, como por exemplo a desidratação. Caso seja equipado com sensores que detectam quedas ou impactos, o capacete pode enviar alertas automáticos para equipes de resgate em caso de acidentes. Além disso, a tecnologia permite a integração com dispositivos móveis, facilitando a comunicação e a recepção de informações importantes, enquanto coleta dados sobre a performance do piloto para análise e melhoria contínua, garantindo o bem-estar do piloto em todas as situações. 
 
 # Links
-#### [Simulação do projeto](https://wokwi.com/projects/409829036145276929)
+### [Simulação do projeto](https://wokwi.com/projects/409829036145276929)
 
-#### [Vídeo explicativo do projeto](https://youtu.be/GU1-X_vgeWk)
+### [Código Fonte em C++](https://github.com/Nicoli-Kassa/EDGE_SPRINT2/blob/main/codigo.c%2B%2B)
 
-#### [Código Fonte em C++](https://github.com/Nicoli-Kassa/EDGE_SPRINT2/blob/main/codigo.c%2B%2B)
+### [Vídeo explicativo do projeto](https://youtu.be/GU1-X_vgeWk)
+
 
