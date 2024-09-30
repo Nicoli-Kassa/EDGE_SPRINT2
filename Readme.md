@@ -37,8 +37,12 @@ Pedro Almeida Camacho | RM 556831
 ![alt Dados Apresentados](./imagens/desidratacaoOLED.png)
 
 # Servidor IoT MQTT
-Neste projeto tambem integramos nosso esp32 a um servidor na nuvem utilizando a azure com um Virtual machine rodando o ubuntu server, nele iniciamos o monitoramento do nosso device e enviamos os dados para o servidor
 
+Neste projeto utilizando a rede Cloud da Azure para conectar nosso esp32 a servidores na nuvem, criamos uma maquina virtual linux.
+![alt Virtual machine](./imagens/vm-azure.png)
+Alem disso o servidor foi feito utilizando docker e fiware do repositorio fiware descomplicado assim conseguimos rodar e processar as informações e dados gerador pelo esp no servido dedicado a isso,
+na imagem vemos o nosso device200 utilizado na simulação conectado ao servidor.
+![alt Device](./imagens/devices.png)
 
 # Observações
 >Essa é apenas uma simulação. O projeto principal utilizaria um sensor de batimentos cardíacos, como o sensor MAX30100, porém como não há esse componente na biblioteca do simulador, utilizamos uma variável que gera números aleatórios entre 60 e 100. Além disso, o projeto inicial contava com a aplicação do sensor de condutividade elétrica para identificar sinais de desidratação, porém na simulação utilizamos a própria medição de umidade do DHT22. E para possíveis melhorias, poderia ser incrementado um acelerômetro e giroscópio, como o MPU6050, para monitorar os movimentos do capacete e detectar possíveis impactos ou quedas.
@@ -49,7 +53,7 @@ Neste projeto tambem integramos nosso esp32 a um servidor na nuvem utilizando a 
 # Links
 #### [Simulação do projeto](https://wokwi.com/projects/409829036145276929)
 
-#### [Vídeo explicativo do projeto]()
+#### [Vídeo explicativo do projeto](https://youtu.be/GU1-X_vgeWk)
 
 #### [Código Fonte em C++](https://github.com/Nicoli-Kassa/EDGE_SPRINT2/blob/main/codigo.c%2B%2B)
 
